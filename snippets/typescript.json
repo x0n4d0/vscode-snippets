@@ -2,7 +2,7 @@
 	"import": {
 		"prefix": "impf",
 		"body": [
-			"import { $1 } from '$2';"
+			"import { $2 } from '$1';"
 		],
 		"description": "Write import { } from '';"
   },

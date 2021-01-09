@@ -1,0 +1,20 @@
+{
+	"import": {
+		"prefix": "impf",
+		"body": [
+			"import { $1 } from '$2';"
+		],
+		"description": "Write import { } from '';"
+  },
+  
+	"newClass": {
+    "prefix": "exclass",
+    "body": [
+			"export class $1 {",
+			"  $2",
+			"  constructor() {}",
+      "}" 
+    ],
+    "description": "Create one class with export and constructor"
+  }
+}

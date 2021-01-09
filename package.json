@@ -1,7 +1,7 @@
 {
   "name": "vscode-snippets",
   "description": "Visual Studio Code snippets created by x0n4d0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "x0n4d0 snippets",
   "publisher": "x0n4d0",
   "icon": ".github/icon.png",
@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/x0n4d0/vscode-snippets.git"
   },
+  "scripts": {
+    "publish": "npm i -g global vsce && vsce package && vsce publish -p $(grep VSCODE_TOKEN .env | cut -d '=' -f2)"
+  },
   "engines": {
     "vscode": "^1.22.0"
   },
@@ -21,7 +24,6 @@
     "Snippets"
   ],
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "vsce": "^1.83.0"
   }
 }

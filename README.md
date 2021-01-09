@@ -35,6 +35,8 @@ Below is the list of all avaible Snippets. The **→** means the <kbd>TAB</kbd> 
 |                    `rfc →` | Create a functional component in React                                             |
 |           `styled-react →` | Create a stylization file with Styled Components                      |
 |           `bash →` | Initializes a bash file with import and execute permission                      |
+|           `impf →` | Write `import { } from '';`                      |
+|           `exclass →` | Create one class with export and constructor                      |
 
 ## **🌱 Contributing**
 

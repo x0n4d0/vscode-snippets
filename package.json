@@ -23,6 +23,18 @@
   "categories": [
     "Snippets"
   ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "bash",
+        "path": "./snippets/snippets-bash.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets-ts-react.json"
+      }
+    ]
+  },
   "devDependencies": {
     "vsce": "^1.83.0"
   }

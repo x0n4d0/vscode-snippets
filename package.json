@@ -1,7 +1,7 @@
 {
   "name": "vscode-snippets",
   "description": "Visual Studio Code snippets created by x0n4d0",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "displayName": "x0n4d0 snippets",
   "publisher": "x0n4d0",
   "icon": ".github/icon.png",
@@ -32,6 +32,10 @@
       {
         "language": "typescriptreact",
         "path": "./snippets/ts-react.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/typescript.json"
       }
     ]
   },
